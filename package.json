@@ -1,12 +1,22 @@
 {
   "name": "kettle-carte",
   "version": "1.0.0",
-  "description": "",
+  "description": "API Library of Kettle Carte Service",
   "main": "index.js",
   "scripts": {
+    "postversion": "npm publish",
+    "postpublish": "git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbenxin/kettle-carte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wbenxin/kettle-carte/issues"
+  },
+  "homepage": "https://github.com/wbenxin/kettle-carte#readme",
+  "keywords": ["Kettle", "Carte"],
   "author": "wbenxin",
   "license": "MIT",
   "dependencies": {
